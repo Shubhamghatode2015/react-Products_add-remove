@@ -1,0 +1,36 @@
+.demo-wrap {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.demo-bg {
+  opacity: 0.9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-size: contain;
+}
+
+.demo-content {
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding: 1rem;
+  border: 0.2rem solid rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+}
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+.link :hover {
+  color: aqua;
+}
